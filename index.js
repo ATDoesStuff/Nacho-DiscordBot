@@ -26,8 +26,7 @@ function gotMessage(msg) {
             const r = Math.floor(Math.random() * replies.length);
             msg.channel.send(replies[r]);
         }  else if (msg.content == "hi"){
-            msg.channel.send("wenas")
-            let url = 
+            msg.channel.send("wenas"); 
         }
     }
 // }
